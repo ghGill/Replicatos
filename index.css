@@ -304,6 +304,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    container-type: inline-size;
+}
+
+.screen.board-scr .title {
+    width: 8%;
+    position: absolute;
+    color: white;
+    font-size: 2cqw;
+    top: 2px;
+    right: 2px;
+    direction: rtl;
+}
+
+.screen.board-scr .title .grid-level-num {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid white;
+    border-radius: 24px;
+    padding: 4px 4px;
+    background-color: black;
 }
 
 .screen.board-scr .grid {

@@ -53,6 +53,8 @@ export class VisualGrid extends Grid {
                 gridRow.appendChild(gc);
             }
 
+            document.getElementById("level-num").innerHTML = this.gameManager.level + 1;
+
             containerElm.appendChild(gridRow);
         }
 
