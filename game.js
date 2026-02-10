@@ -110,7 +110,7 @@ function loadSoundStatus() {
     return parseInt(soundStatus);
 }
 
-function savesoundstatus(status) {
+function saveSoundStatus(status) {
     localStorage.setItem("snd", status)
 }
 
@@ -233,7 +233,7 @@ export function changeSoundStatus() {
     else
         stopSound(bgMusic);
 
-    savesoundstatus(volumeStatus);
+    saveSoundStatus(volumeStatus);
 }
 
 function updateSoundIcon() {
